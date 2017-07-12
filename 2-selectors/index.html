@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    .wrapper {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    h1,
+    h2 {
+        color: green;
+    }
+    
+    .highlight {
+        color: yellow;
+    }
+    fieldset:first-child{
+    	border: none;
+    }
+    table, td, th {
+    	border: 1px solid #000;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <figure><img src="" alt=""></figure>
+        </header>
+        <section>
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur <strong class="highlight">adipisicing</strong> elit. Laudantium odit, fuga ad, enim odio <strong class="highlight">ex tempore</strong> fugiat alias quisquam, tenetur beatae? Eligendi et ipsum quia <em class="highlight">delectus</em> quis repellat, consectetur vel.</p>
+        </section>
+        <section>
+            <h2>Our location</h2>
+            <ul>
+                <li>USA
+                    <ul>
+                        <li><a href="#">New York</a></li>
+                        <li><a href="#">Columbus</a></li>
+                        <li><a href="#">Austin</a></li>
+                        <li><a href="#">Phily</a></li>
+                    </ul>
+                </li>
+                <li>World
+                    <ul>
+                        <li><a href="#">Otawa</a></li>
+                        <li><a href="#">Sydney</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Upcoming classes</h2>
+            <table>
+                <thead>
+                    <th>Location</th>
+                    <th>Topic</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#">New York</a></td>
+                        <td><a href="#">San Francisco</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">JavaScript & jQuery</a></td>
+                        <td><a href="#">HTML & CSS</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Sign up!</h2>
+            <form action="/contact">
+                <fieldset>
+                    <div>
+                        <label for="yourName" name="name">Name</label>
+                        <input type="text" id="yourName">
+                    </div>
+                    <div>
+                        <label for="email" name="emal">email</label>
+                        <input type="mail" id="email">
+                    </div>
+                    <div>
+                        <label for="email" name="emal">email</label>
+                        <input type="mail" id="email">
+                    </div>
+                    <div>
+                        <select name="city">
+                            <option value="San Francisco">San Francisco</option>
+                            <option value="New York">New York</option>
+                            <option value="Sydney">Sydney</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
+            <fieldset>
+                <legend>Gender:</legend>
+                <input type="radio" name="gender" value="male"> Male
+                <br>
+                <input type="radio" name="gender" value="female"> Female
+                <br>
+            </fieldset>
+            <fieldset>
+                <label for="experience">Experience:</legend>
+                    <textarea id="experience"></textarea>
+            </fieldset>
+            <input type="submit" value="Sign up" />
+        </section>
+        <div>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Flickr</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

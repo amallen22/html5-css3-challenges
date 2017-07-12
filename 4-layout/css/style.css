@@ -1,0 +1,128 @@
+    @import url('https://fonts.googleapis.com/css?family=Roboto|Zilla+Slab');
+    body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        background-color: #000;
+    }
+
+/* font styles*/
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #000;
+        font-weight: bold;
+        margin-bottom: 14px;
+    }
+    
+    h1 {
+        color: #fff;
+        font-size: 2.2em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+    
+    h3 {
+        font-size: 1.8em;
+    }
+    
+    h4 {
+        font-size: 1.6em;
+    }
+    
+    h5 {
+        font-size: 1.4em;
+    }
+    
+    h6 {
+        font-size: 1.2em;
+    }
+
+/* container styles */
+    div.wrapper {
+        background-color: #fff;
+        width: 768px;
+        margin: 0 auto;
+    }
+    
+/* aside menu */
+    .aside {
+        width: 20%;
+        font-family: 'Zilla Slab', serif;
+    }
+    
+    .aside nav {
+        background-color: #c7d583;
+    }
+    
+    .aside nav a {
+        color: #fd1d11;
+        display: block;
+        padding: 6% 10%;
+        text-decoration: none;
+        border-bottom: 1px solid #000;
+    }
+
+    .aside nav a:hover {
+        background-color: #deeaa3;
+    }
+    
+    
+    .aside div {
+        background-color: #00ffff;
+        padding: 10%;
+    }
+    
+    .aside div p {
+        line-height: 115%;
+    }
+    
+    .aside,
+    article {
+        float: left;
+    }
+
+/* article section */
+    article {
+        width: 75%;
+        padding: 2.5%;
+    }
+    
+    article p {
+        font-size: 1.1em;
+        line-height: 120%;
+    }
+    
+    article section {
+        margin-bottom: 30px;
+    }
+
+/* footer */
+    footer {
+        clear: left;
+    }
+    header,
+    footer {
+        background-color: #003597;
+        padding: 2%;
+        color: #fff;
+    }
+
+/* image styles */
+    img {
+        width: 300px;
+    }
+    
+    img {
+        float: right;
+        margin-left: 15px;
+    }
+    img:first-child {
+        float: left;
+        margin-right: 15px;
+        margin-left: 0;
+    }
